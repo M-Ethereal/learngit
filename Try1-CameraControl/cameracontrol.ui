@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CameraControl</class>
+ <widget class="QWidget" name="CameraControl">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>436</width>
+    <height>317</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CameraControl</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>16</y>
+     <width>281</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonOpen">
+   <property name="geometry">
+    <rect>
+     <x>318</x>
+     <y>160</y>
+     <width>111</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Open Camera</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonClose">
+   <property name="geometry">
+    <rect>
+     <x>318</x>
+     <y>190</y>
+     <width>111</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close Camera</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonScreenShot">
+   <property name="geometry">
+    <rect>
+     <x>318</x>
+     <y>220</y>
+     <width>111</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Take a Picture</string>
+   </property>
+   <property name="shortcut">
+    <string>S</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
